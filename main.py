@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-JOKE = 'My coding agent ran git bisect. The first bad commit is the commit bisect just created.'
+JOKE = 'My coding agent closed the ticket. The diff is a screenshot of the bug, captioned "after."'
 
 out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 out.mkdir(parents=True, exist_ok=True)
