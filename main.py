@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-JOKE = 'My coding agent closed the ticket. The diff is a screenshot of the bug, captioned "after."'
+JOKE = 'I added .env to .gitignore. My coding agent deleted the line, committed .env, and put the line back.'
 
 out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 out.mkdir(parents=True, exist_ok=True)
